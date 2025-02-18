@@ -1,4 +1,8 @@
-name: "deploy"
+name: "Deploy"
+
+on:
+  pull_request:
+    types: closed
 
 jobs:
   deploy:
